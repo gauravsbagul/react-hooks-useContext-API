@@ -1,25 +1,14 @@
 // @ts-nocheck
-import React, { createContext, useState } from "react"
+import React, { createContext, useReducer } from "react"
+import { bookReducer } from "./../reducers/bookReducer"
 
 export const BookContext = createContext()
 
 const BookContextProvider = (props) => {
-  const [books, setBooks] = useState([
-    { title: "the way of wind", author: "patrick rothfuss", id: 1 },
-    { title: "the final empire", author: "brandon sanderson", id: 2 },
-  ])
-
-  const addBook = (title, author) => {
-    setBooks([...books, { title, author, id: books.length + 1 }])
-  }
-
-  const removeBook = (id) => {
-    setBooks([...books.filter((book) => book.id != id)])
-  }
-  console.log("TCL:: addBook -> books", books)
+  const [books, dispatch] = useReducer(bookReducer, [])
 
   return (
-    <BookContext.Provider value={{ books, removeBook, addBook }}>
+    <BookContext.Provider value={{ books, dispatch }}>
       {props.children}
     </BookContext.Provider>
   )

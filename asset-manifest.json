@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-hooks-useContext.githhub.io/book-list/static/css/main.7c82b20f.chunk.css",
+    "main.js": "/react-hooks-useContext.githhub.io/book-list/static/js/main.2f75f2e7.chunk.js",
+    "main.js.map": "/react-hooks-useContext.githhub.io/book-list/static/js/main.2f75f2e7.chunk.js.map",
+    "runtime-main.js": "/react-hooks-useContext.githhub.io/book-list/static/js/runtime-main.32af658a.js",
+    "runtime-main.js.map": "/react-hooks-useContext.githhub.io/book-list/static/js/runtime-main.32af658a.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/react-hooks-useContext.githhub.io/book-list/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.d01349fb.chunk.js": "/react-hooks-useContext.githhub.io/book-list/static/js/2.d01349fb.chunk.js",
+    "static/js/2.d01349fb.chunk.js.map": "/react-hooks-useContext.githhub.io/book-list/static/js/2.d01349fb.chunk.js.map",
+    "index.html": "/react-hooks-useContext.githhub.io/book-list/index.html",
+    "precache-manifest.c9240d7256ff6acbc6d432009a1dee66.js": "/react-hooks-useContext.githhub.io/book-list/precache-manifest.c9240d7256ff6acbc6d432009a1dee66.js",
+    "service-worker.js": "/react-hooks-useContext.githhub.io/book-list/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/react-hooks-useContext.githhub.io/book-list/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.7c82b20f.chunk.css.map": "/react-hooks-useContext.githhub.io/book-list/static/css/main.7c82b20f.chunk.css.map",
+    "static/js/2.d01349fb.chunk.js.LICENSE.txt": "/react-hooks-useContext.githhub.io/book-list/static/js/2.d01349fb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32af658a.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.d01349fb.chunk.js",
+    "static/css/main.7c82b20f.chunk.css",
+    "static/js/main.2f75f2e7.chunk.js"
+  ]
+}
